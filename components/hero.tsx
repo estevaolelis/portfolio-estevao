@@ -21,7 +21,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-black">
+    <div className="relative min-h-screen">
       <SmoothScrollHero
         scrollHeight={scrollHeight}
         desktopImage="https://images.unsplash.com/photo-1665856723112-b5b1adc93456"
