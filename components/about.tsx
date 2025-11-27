@@ -6,6 +6,9 @@ const About = () => {
     <section id="about" className="py-20 px-4 bg-secondary/10">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center space-y-4 mb-16 animate-fade-in">
+          <div className="w-64 h-64 rounded-full overflow-hidden mx-auto">
+            <img src="/eu.jpg" alt="Estevão Lelis's photo" />
+          </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white">About Me</h2>
           <p className="text-gray-200 text-lg">
             Get to know a bit more about my journey
