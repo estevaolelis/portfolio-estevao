@@ -16,17 +16,12 @@ const About = () => {
           <Card className="p-6 bg-zinc-900/50 border-zinc-800">
             <CardContent className="p-8">
               <p className="text-lg leading-relaxed text-gray-200">
-                I am a back-end developer passionate about creating exceptional 
-                digital experiences. Currently, I am focused on honing my skills in{" "}
-                <span className="text-shadow-white text-white font-semibold">C#</span>,
-                <span className="text-shadow-white text-white font-semibold"> .NET</span>, and
-                <span className="text-shadow-white text-white font-semibold"> React</span>.
+                I'm a Back-end Developer who enjoys solving complex logic puzzles. While I can handle React, my real strength lies in the server-side, building scalable architectures with C# and .NET.
+                For me, software engineering isn't just about making things work—it's about writing clean, testable code that my future self (and my team) will thank me for.
               </p>
               <p className="text-lg leading-relaxed text-gray-200 mt-4">
                 I constantly seek to develop myself as a professional, 
-                combining modern design with clean and efficient code. I have a 
-                special interest in software architecture, automated testing, 
-                and development best practices.
+                combining modern design with clean and efficient code. I believe that make the simples is the best for the user experience.
               </p>
             </CardContent>
           </Card>
@@ -38,9 +33,9 @@ const About = () => {
                   <Code className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-white">Development</h3>
+              <h3 className="font-semibold text-lg mb-2 text-white">Architecture</h3>
               <p className="text-sm text-gray-400">
-                Clean code, reusable components, and optimized performance.
+                Writing code is easy; writing code that humans can read is the challenge. I strive for clarity and efficiency, treating code as a form of communication.
               </p>
             </Card>
 
@@ -50,9 +45,9 @@ const About = () => {
                   <Target className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-white">Quality Assurance</h3>
+              <h3 className="font-semibold text-lg mb-2 text-white">Reliability</h3>
               <p className="text-sm text-gray-400">
-                Automated testing and quality assurance in every delivery.
+                I sleep better knowing my code is tested. Automated testing is my safety net to refactor with confidence and keep technical debt low.
               </p>
             </Card>
 
@@ -62,9 +57,9 @@ const About = () => {
                   <Rocket className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-white">Continuous Growth</h3>
+              <h3 className="font-semibold text-lg mb-2 text-white">Learning</h3>
               <p className="text-sm text-gray-400">
-                Always evolving and learning new technologies and patterns.
+                Driven by curiosity. Whether it's mastering a new .NET feature or understanding a complex algorithm, I'm always looking for the "why" behind the "how".
               </p>
             </Card>
           </div>
