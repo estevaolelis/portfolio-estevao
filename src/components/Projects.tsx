@@ -42,7 +42,7 @@ const Projects = async () => {
                       title={project.name}
                       description={project.description || "Sem descrição"}
                       technologies={project.topics || []}
-                      image="https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80"
+                      image={`https://opengraph.githubassets.com/1/estevaolelis/${project.name}`}
                       liveUrl={project.homepage || undefined}
                       githubUrl={project.html_url}
                     />
