@@ -18,7 +18,7 @@ export async function getGithubProjects(): Promise<GithubRepo[]> {
     cacheLife("hours");
 
     const username = "estevaolelis"
-    const token = process.env.GITHUB_TOKEN; //
+    const token = process.env.GITHUB_TOKEN;
 
     try {
         const response = await fetch(
