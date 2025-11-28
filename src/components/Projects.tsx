@@ -16,10 +16,10 @@ const Projects = async () => {
       <div className="container mx-auto">
         <div className="text-center space-y-4 mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
-            Projetos
+            Projects
           </h2>
           <p className="text-lg max-w-2xl mx-auto text-gray-200">
-            Alguns dos meus trabalhos recentes e projetos pessoais
+            Some of my recent works and personal projects
           </p>
         </div>
 
@@ -33,8 +33,8 @@ const Projects = async () => {
           >
             <CarouselContent className="-ml-4">
               {projects.map((project, index) => (
-                <CarouselItem 
-                  key={project.id} 
+                <CarouselItem
+                  key={project.id}
                   className="pl-4 md:basis-1/2 lg:basis-1/3"
                 >
                   <div className="h-full p-1">
@@ -50,12 +50,11 @@ const Projects = async () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            
+
             <CarouselPrevious className="bg-zinc-800 border-zinc-700 text-white hover:bg-zinc-700 hidden sm:flex" />
             <CarouselNext className="bg-zinc-800 border-zinc-700 text-white hover:bg-zinc-700 hidden sm:flex" />
           </Carousel>
         </div>
-
       </div>
     </section>
   );
