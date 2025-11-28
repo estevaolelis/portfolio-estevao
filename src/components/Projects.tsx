@@ -51,8 +51,8 @@ const Projects = async () => {
               ))}
             </CarouselContent>
 
-            <CarouselPrevious className="bg-zinc-800 border-zinc-700 text-white hover:bg-zinc-700 hidden sm:flex" />
-            <CarouselNext className="bg-zinc-800 border-zinc-700 text-white hover:bg-zinc-700 hidden sm:flex" />
+            <CarouselPrevious className="bg-zinc-800 border-zinc-700 text-white hover:bg-zinc-700 hidden sm:flex cursor-pointer" />
+            <CarouselNext className="bg-zinc-800 border-zinc-700 text-white hover:bg-zinc-700 hidden sm:flex cursor-pointer" />
           </Carousel>
         </div>
       </div>
