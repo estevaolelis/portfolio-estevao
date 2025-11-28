@@ -15,7 +15,7 @@ const Projects = async () => {
     <section id="projects" className="py-20 px-4">
       <div className="container mx-auto">
         <div className="text-center space-y-4 mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
+          <h2 className="font-tech text-4xl md:text-5xl font-bold tracking-tight text-white">
             Projects
           </h2>
           <p className="text-lg max-w-2xl mx-auto text-gray-200">

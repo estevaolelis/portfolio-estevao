@@ -16,7 +16,7 @@ const About = () => {
           </div>
           
           <div className="space-y-2">
-            <h2 className="text-4xl md:text-5xl font-bold text-white">About Me</h2>
+            <h2 className="font-tech text-4xl md:text-5xl font-bold text-white">About Me</h2>
             <p className="text-gray-400 text-lg">
               Get to know a bit more about my journey
             </p>
@@ -57,7 +57,7 @@ const About = () => {
                   <Code className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-white">Architecture</h3>
+              <h3 className="font-tech font-semibold text-lg mb-2 text-white">Architecture</h3>
               <p className="text-sm text-gray-400">
                 Writing code is easy; writing code that humans can read is the challenge. I strive for clarity and efficiency.
               </p>
@@ -69,7 +69,7 @@ const About = () => {
                   <Target className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-white">Reliability</h3>
+              <h3 className="font-tech font-semibold text-lg mb-2 text-white">Reliability</h3>
               <p className="text-sm text-gray-400">
                 I sleep better knowing my code is tested. Automated testing is my safety net to refactor with confidence.
               </p>
@@ -81,7 +81,7 @@ const About = () => {
                   <Rocket className="h-8 w-8 text-black" />
                 </div>
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-white">Learning</h3>
+              <h3 className="font-tech font-semibold text-lg mb-2 text-white">Learning</h3>
               <p className="text-sm text-gray-400">
                 Driven by curiosity. Always looking for the "why" behind the "how", mastering features and algorithms.
               </p>

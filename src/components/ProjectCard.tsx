@@ -47,7 +47,9 @@ const ProjectCard = ({
       </div>
 
       <CardHeader>
-        <CardTitle className="text-xl font-bold text-white">{title}</CardTitle>
+        <CardTitle className="font-tech text-xl font-bold text-white">
+          {title}
+        </CardTitle>
         <CardDescription className="text-zinc-400">
           {description}
         </CardDescription>
@@ -71,7 +73,7 @@ const ProjectCard = ({
         {liveUrl && (
           <Button
             size="sm"
-            className="bg-white text-black hover:bg-zinc-200"
+            className="font-tech bg-white text-black hover:bg-zinc-200"
             asChild
           >
             <a href={liveUrl} target="_blank" rel="noopener noreferrer">
@@ -84,7 +86,7 @@ const ProjectCard = ({
           <Button
             size="sm"
             variant="outline"
-            className="bg-white text-black hover:bg-zinc-200"
+            className="font-tech bg-white text-black hover:bg-zinc-200"
             asChild
           >
             <a href={githubUrl} target="_blank" rel="noopener noreferrer">

@@ -40,7 +40,7 @@ const Hero = () => {
         className="fixed bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none mix-blend-difference z-20 transition-opacity duration-300"
         style={{ opacity: indicatorOpacity }}
       >
-        <span className="text-[10px] uppercase tracking-[0.2em] text-white/80 font-medium">
+        <span className="font-tech text-[10px] uppercase tracking-[0.2em] text-white/80 font-medium">
           Scroll
         </span>
         <div className="animate-bounce mt-1">
@@ -67,7 +67,7 @@ const Hero = () => {
                 : "opacity-0 translate-y-20 blur-sm"
             }`}
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white text-center drop-shadow-2xl">
+            <h1 className="font-tech text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white text-center drop-shadow-2xl">
               Estêvão Lélis
             </h1>
             <p className="text-lg md:text-xl text-center max-w-xl text-gray-200 leading-relaxed px-4 drop-shadow-lg">
