@@ -6,7 +6,7 @@ export default async function ProjectsSection() {
 
   return (
     <section id="projects" className="py-16">
-      <div className="mx-auto max-w-3xl px-1">
+      <div className="mx-auto max-w-3xl px-6">
         <h2 className="text-2xl font-bold text-white mb-8">Projects</h2>
 
         <div className="space-y-5">

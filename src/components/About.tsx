@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <header className="w-full min-h-screen">
-      <div className="mx-auto max-w-3xl px-1 py-16">
+      <div className="mx-auto max-w-3xl px-6 py-16">
         <h1 className="text-white text-2xl font-bold">About me</h1>
 
         <div className="text-center space-y-6 mb-6 animate-fade-in">
