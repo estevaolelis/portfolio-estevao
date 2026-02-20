@@ -1,18 +1,20 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Rocket, Target } from "lucide-react";
+import Image from 'next/image'
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-secondary/10">
+    <section id="about" className="py-20 px-4 bg-zinc-950">
       <div className="container mx-auto max-w-4xl">
         
         <div className="text-center space-y-6 mb-16 animate-fade-in">
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto border-4 border-zinc-800 shadow-2xl">
-            <img 
-              src="/eu.jpg" 
-              alt="Estevão Lelis" 
-              className="w-full h-full object-cover"
-            />
+             <Image
+                src="/eu.jpg"
+                alt="Estevão Lelis"
+                width={800}
+                height={500}
+              />
           </div>
           
           <div className="space-y-2">

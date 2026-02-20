@@ -22,7 +22,7 @@ export async function getGithubProjects(): Promise<GithubRepo[]> {
 
     try {
         const response = await fetch(
-            `https://api.github.com/users/${username}/repos?sort=updated&direction=desc&per_page=100`,
+            `https://api.github.com/users/${username}/repos?sort=updated&direction=desc&per_page=10`,
             {
                 headers: token ? { Authorization: `Bearer ${token}`} : undefined,
             }

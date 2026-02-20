@@ -12,7 +12,7 @@ const Projects = async () => {
   const projects = await getGithubProjects();
 
   return (
-    <section id="projects" className="py-20 px-4">
+    <section id="projects" className="py-20 px-4 bg-zinc-950">
       <div className="container mx-auto">
         <div className="text-center space-y-4 mb-16 animate-fade-in">
           <h2 className="font-tech text-4xl md:text-5xl font-bold tracking-tight text-white">
