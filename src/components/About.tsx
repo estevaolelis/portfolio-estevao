@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <header className="w-full min-h-screen">
-      <div className="mx-auto max-w-xl px-1 pt-8">
+      <div className="mx-auto max-w-3xl px-1 pt-8">
         <h1 className="text-white text-2xl font-bold">About me</h1>
 
         <div className="text-center space-y-6 mb-6 animate-fade-in">
@@ -19,7 +19,7 @@ export default function About() {
 
         <div className="space-y-6 text-m text-gray-300 leading-relaxed">
           <p>
-            I'm a{" "}
+            I&apos;m a{" "}
             <strong className="text-white font-semibold">
               Back-end Developer
             </strong>{" "}
@@ -31,8 +31,8 @@ export default function About() {
           </p>
 
           <p>
-            For me, software engineering isn't just about making things
-            work—it's about writing{" "}
+            For me, software engineering isn&apos;t just about making things
+            work—it&apos;s about writing{" "}
             <strong className="text-white font-semibold">
               clean, testable code
             </strong>{" "}
