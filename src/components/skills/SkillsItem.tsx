@@ -13,10 +13,10 @@ export default function SkillItem({
 }: SkillItemProps) {
   return (
     <div className="border-b border-white/10 pb-6">
-      <div className="flex items-center justify-between">
-        <Logo className="w-6 h-6 text-gray-300" />
+      <div className="flex items-center gap-3">
+        <Logo className="w-5 h-5 text-gray-300" />
 
-        <h3 className="flex gap-4 text-base font-semibold text-white">
+        <h3 className="text-sm font-semibold text-white">
          {language}
         </h3>
       </div>
