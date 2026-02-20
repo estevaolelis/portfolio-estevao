@@ -1,15 +1,11 @@
-import { Hero } from "@/components/Hero";
-import Projects from "@/components/Projects";
+import NavBar from "@/components/NavBar";
 import About from "@/components/About";
-import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-black">
-      <Hero />
+    <div className="bg-[#121212]">
+      <NavBar />
       <About />
-      <Projects />
-      <Footer />
     </div>
   );
 }
