@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function NavBar() {
@@ -15,21 +16,24 @@ export default function NavBar() {
             Estêvão Lélis
           </a>
           <div className="flex items-center gap-5">
-            <div
+            <Link
               className="text-xl text-white hover:text-gray-300 cursor-pointer"
-              onClick={() => router.push("/projects")}
+              href="/projects"
             >
               Projects
-            </div>
-            <div
+            </Link>
+            <Link
               className="text-xl text-white hover:text-gray-300 cursor-pointer"
-              onClick={() => router.push("/experience")}
+              href="/experience"
             >
               Experience
-            </div>
-            <div className="text-xl text-white hover:text-gray-300 cursor-pointer">
-              Hobbies
-            </div>
+            </Link>
+            <Link
+              className="text-xl text-white hover:text-gray-300 cursor-pointer"
+              href="/skills"
+            >
+              Skills
+            </Link>
           </div>
         </nav>
       </div>
