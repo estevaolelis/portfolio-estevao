@@ -36,8 +36,8 @@ export default function SkillsSection() {
 
   return (
     <section id="skills" className="py-16">
-      <div className="mx-auto max-w-5xl px-6 space-y-12">
-        <h2 className="text-3xl font-bold text-white">Skills</h2>
+      <div className="mx-auto max-w-3xl px-6">
+        <h2 className="text-2xl font-bold text-white mb-8">Skills</h2>
 
         <SkillsGroup title="Languages" items={languages} />
         <SkillsGroup title="Frameworks" items={frameworks} />
