@@ -1,12 +1,12 @@
 import NavBar from "@/components/NavBar";
-import About from "@/components/About";
+import SkillsSection from "@/components/skills/SkillsSection";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function ProjectsPage() {
   return (
     <div className="bg-[#121212]">
       <NavBar />
-      <About />
+      <SkillsSection />
       <Footer />
     </div>
   );
