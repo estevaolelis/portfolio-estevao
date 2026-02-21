@@ -5,7 +5,7 @@ export default async function ProjectsSection() {
   const projects = await getGithubProjects()
 
   return (
-    <section id="projects" className="py-16">
+    <section id="projects" className="py-16 min-h-screen">
       <div className="mx-auto max-w-3xl px-6">
         <h2 className="text-2xl font-bold text-white mb-8">Projects</h2>
 

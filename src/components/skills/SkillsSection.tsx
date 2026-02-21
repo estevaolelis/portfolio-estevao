@@ -35,7 +35,7 @@ export default function SkillsSection() {
   ]
 
   return (
-    <section id="skills" className="py-16">
+    <section id="skills" className="py-16 min-h-screen">
       <div className="mx-auto max-w-3xl px-6">
         <h2 className="text-2xl font-bold text-white mb-8">Skills</h2>
 

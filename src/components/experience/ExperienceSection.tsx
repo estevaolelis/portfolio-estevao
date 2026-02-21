@@ -19,7 +19,7 @@ export default function ExperienceSection() {
   ];
 
   return (
-    <section id="experience" className="py-16">
+    <section id="experience" className="py-16 min-h-screen">
       <div className="mx-auto max-w-3xl px-6">
         <h2 className="text-2xl font-bold text-white mb-8">Experience</h2>
 
